@@ -43,7 +43,7 @@ const Login = () => {
           />
         </div>
         <div className="mb-3">
-          <label className="form-label">Password</label>
+          <label className="form-label">Password 123git </label>
           <input
             type="password"
             value={password}
