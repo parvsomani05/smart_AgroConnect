@@ -1,0 +1,55 @@
+{
+  "title": "Smart Agro Connect",
+  "home": "Home",
+  "registration": "Registration",
+  "login": "Login",
+  "registrationTitle": "Tell us more about you",
+  "selectProfileType": "Select Profile Type",
+  "farmer": "Farmer",
+  "buyer": "Buyer",
+  "yourName": "Your Name*",
+  "emailId": "Email ID",
+  "pinCode": "Pin Code*",
+  "yourAddress": "Your Address",
+  "continue": "Continue",
+
+  "navbar": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "orders": "Orders",
+    "logout": "Logout"
+  },
+
+  "footer": {
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions"
+  },
+
+  "product_form": {
+    "title": "Submit Your Products",
+    "fields": {
+      "product_name": "Product Name",
+      "description": "Product Description",
+      "price": "Price (INR)",
+      "quantity": "Quantity (in KG)",
+      "images": "Upload Images (Max 3)",
+      "certification": "Upload Certifications",
+      "allowed_formats": "Allowed Formats: PDF, JPG, PNG",
+      "submit": "Submit Product",
+      "submitting": "Submitting..."
+    },
+    "alerts": {
+      "max_images": "You can upload a maximum of 3 images.",
+      "success": "Your form has been submitted successfully!",
+      "error": "Something went wrong, please try again."
+    }
+  },
+
+  "hero_section": {
+    "headline": "Connecting Farmers & Buyers Directly",
+    "sub_text": "Eliminate middlemen, increase profits, and access a wider market.",
+    "get_started": "Get Started"
+  }
+}

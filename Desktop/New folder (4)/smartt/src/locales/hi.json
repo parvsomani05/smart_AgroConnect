@@ -1,0 +1,55 @@
+{
+  "title": "स्मार्ट एग्रो कनेक्ट",
+  "home": "होम",
+  "registration": "पंजीकरण",
+  "login": "लॉगिन",
+  "registrationTitle": "हमें आपके बारे में अधिक बताएं",
+  "selectProfileType": "प्रोफ़ाइल प्रकार चुनें",
+  "farmer": "किसान",
+  "buyer": "खरीदार",
+  "yourName": "आपका नाम*",
+  "emailId": "ईमेल आईडी",
+  "pinCode": "पिन कोड*",
+  "yourAddress": "आपका पता",
+  "continue": "जारी रखें",
+
+  "navbar": {
+    "dashboard": "डैशबोर्ड",
+    "products": "उत्पाद",
+    "orders": "आदेश",
+    "logout": "लॉगआउट"
+  },
+
+  "footer": {
+    "aboutUs": "हमारे बारे में",
+    "contactUs": "संपर्क करें",
+    "privacyPolicy": "गोपनीयता नीति",
+    "termsConditions": "नियम एवं शर्तें"
+  },
+
+  "product_form": {
+    "title": "अपने उत्पाद प्रस्तुत करें",
+    "fields": {
+      "product_name": "उत्पाद का नाम",
+      "description": "उत्पाद विवरण",
+      "price": "मूल्य (INR)",
+      "quantity": "मात्रा (किलोग्राम में)",
+      "images": "छवियाँ अपलोड करें (अधिकतम 3)",
+      "certification": "प्रमाणपत्र अपलोड करें",
+      "allowed_formats": "अनुमत प्रारूप: PDF, JPG, PNG",
+      "submit": "उत्पाद सबमिट करें",
+      "submitting": "सबमिट किया जा रहा है..."
+    },
+    "alerts": {
+      "max_images": "आप अधिकतम 3 छवियाँ अपलोड कर सकते हैं।",
+      "success": "आपका फॉर्म सफलतापूर्वक सबमिट हो गया!",
+      "error": "कुछ गलत हो गया, कृपया पुनः प्रयास करें।"
+    }
+  },
+
+  "hero_section": {
+    "headline": "किसानों और खरीदारों को सीधे जोड़ना",
+    "sub_text": "बिचौलियों को हटाएं, मुनाफा बढ़ाएं और व्यापक बाजार तक पहुंचें।",
+    "get_started": "शुरू करें"
+  }
+}

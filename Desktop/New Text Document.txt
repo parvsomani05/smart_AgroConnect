@@ -1,0 +1,351 @@
+JAVA
+Q1: Answer the following questions. (All Compulsory)
+1. Define why Java is a strongly-typed language.
+2. What is an uncaught exception? Explain with an example.
+3. Define Input Stream.
+4. Write 3 different syntaxes to create an object of TreeMap.
+5. What is an annotation? List its types and explain any two.
+
+Q2: Choose the correct answer. (MCQs)
+1. Which allocates memory for an object during runtime?
+a) array
+b) new
+c) dynamic
+d) none
+2. Which keyword is used to inherit a class?
+a) import
+b) extends
+c) implements
+d) None of these
+3. Which of these is not an OOP concept in Java?
+a) Polymorphism
+b) Inheritance
+c) Compilation
+d) Encapsulation
+4. Objects are sorted in ascending order in which collection?
+a) ArrayList
+b) HashSet
+c) TreeSet
+d) None of these
+5. What is the maximum priority of a thread in Java?
+a) 10
+b) 5
+c) 1
+d) 100
+6. What is the extension of a Java source file?
+a) .class
+b) .java
+c) .jar
+d) .exe
+
+Q3: Write short notes on:
+1. The basic concepts of object-oriented programming (OOP).
+2. Differences between Method Overloading and Method Overriding.
+3. Use of the finalize() method.
+4. Explain HashMap vs. TreeMap with examples.
+5. Features of Java packages.
+
+Q4: Write a Java program to:
+1. Demonstrate push and pop operations using a stack.
+2. Create a Student class. Throw a custom exception (MarkOutOfBoundsException) if marks are greater than 100.
+3. Count the number of characters, words, and lines from an input stream.
+4. Find the cube of a number using command-line arguments.
+
+Q5: Explain the following with examples:
+1. The lifecycle of a thread in Java.
+2. Dynamic method dispatch.
+3. Static variables, static methods, and static blocks.
+4. How to use try-catch-finally blocks effectively.
+5. Differences between Byte Stream and Character Stream.
+
+Q6: Answer the following conceptual questions:
+1. What is an interface in Java? Explain its features.
+2. What are abstract classes and methods? Provide examples.
+3. Explain thread synchronization with an example.
+4. What are varargs in Java? Discuss their advantages.
+5. How is inheritance implemented in Java? Explain with an example of class and interface inheritance.
+
+Q7: GUI-Based Programming:
+1. Write a Java program using JButton, JLabel, and JTextField to find the factorial of a number.
+2. Explain the differences between lightweight and heavyweight components in Java Swing.
+3. Write a program to demonstrate the use of any two layout managers.
+
+Q8: File Handling and Collections:
+1. Explain the use of File Constructors with examples.
+2. Write a program to read characters from a file using FileReader.
+3. Differentiate between HashSet and TreeSet.
+4. What are ArrayLists? Provide an example.
+5. Discuss the Map interface with an example.
+Wdt
+Q1: Theoretical Questions (All Compulsory)
+1. What is the extension of a user control in ASP.NET?
+2. Which validation control displays all error messages at the bottom of the page?
+3. Write the full form of the following:
+o CLR
+o CTS
+o CSS
+o LINQ
+o AJAX
+4. Explain the purpose of the following controls:
+o RadioButton
+o TextBox
+o Button
+o DropDownList
+5. What is a namespace in ASP.NET? Explain its use in connecting to an SQL server database.
+6. Write the difference between Convert.ToInt32() and Int.Parse().
+7. What are the properties of the HyperLink control?
+8. How does the GroupName property work in the RadioButton control?
+
+Q2: Short Notes
+1. ScriptManager and UpdatePanel: Explain their roles in AJAX.
+2. Exception Handling in ASP.NET: Discuss the mechanism with an example.
+3. Write a short note on theme and skin in ASP.NET.
+4. Describe the purpose and working of the MasterPage in ASP.NET.
+5. Explain Role Management in ASP.NET.
+
+Q3: Objective Questions (All Compulsory)
+1. Every server control in ASP.NET must have an id. [True/False]
+2. The file extension of an ASP.NET web form is ____.
+3. Which property in a control displays a text message when the user hovers over it?
+4. The extension of LINQ to SQL class is ____.
+5. AJAX enables asynchronous communication between the client and server. [True/False]
+6. What is the maximum priority for threads in ASP.NET?
+
+Q4: Descriptive Questions
+1. Explain the ASP.NET Page Lifecycle in detail.
+2. Describe the difference between:
+o Server.Transfer() and Response.Redirect().
+o DataReader and DataAdapter.
+o BackButton and CheckBox.
+3. What is ADO.NET Architecture? Explain its components.
+4. Explain ListItem Control with its properties and uses.
+5. How do we handle validations in ASP.NET? Discuss any two validation controls.
+
+Q5: Programming and Implementation
+1. Write a program to create a DropDownList control and bind it with a data source.
+2. Implement a simple login form using ASP.NET with proper validation controls.
+3. Explain and demonstrate the working of a RequiredFieldValidator with an example.
+4. Write the steps to prepare an ASP.NET website for deployment.
+5. Explain the working of the TextBox Control with a detailed example.
+
+Q6: Advanced Concepts
+1. What is LINQ to SQL? Provide a detailed explanation.
+2. Write the architecture of ADO.NET and discuss each layer in detail.
+3. What are the advantages of using a MasterPage in ASP.NET?
+4. Discuss the use of a sitemap file with an example.
+5. What is a web user control? How is it different from a custom control?
+
+Q7: Practical Examples and Use Cases
+1. Write a program to demonstrate AJAX-based page processing.
+2. Implement the Role Management process for users in an ASP.NET application.
+3. Design a form using ASP.NET to update user details, including client-side and server-side validation.
+4. Explain the use of Global.asax in an ASP.NET application with an example.
+5. Create a small website with themes and skins applied to all controls.
+SQL
+Question Bank: PL/SQL and Database Concepts
+1. Theoretical Questions
+1. What is the main difference between procedures and functions in PL/SQL? Provide examples.
+2. Explain the term collection in PL/SQL. Describe its use with the BULK COLLECT clause.
+3. Describe the architecture of a Client/Server Distributed Database Management System (DDBMS) with a block diagram.
+4. What are the advantages of PL/SQL over SQL?
+5. Explain the concept of exception handling in PL/SQL with examples.
+6. Define a cursor in PL/SQL. Differentiate between explicit and implicit cursors.
+7. Outline the differences between stored subprograms and local subprograms.
+8. What are :new and :old in the context of triggers? Explain their usage with examples.
+9. What is a dynamic SQL? How is the DBMS_SQL package used in PL/SQL? Provide an example.
+10. Differentiate between Named Notation and Positional Notation in parameter passing in subprograms.
+
+2. Practical Questions
+1. Cursor Attributes:
+o List and explain the four attributes of explicit cursors in PL/SQL.
+o Provide an example of a FOR loop using a cursor.
+2. Triggers:
+o Write a trigger to ensure that the dname column in a Driver table is converted to uppercase before inserting or updating.
+o Create a trigger that uses a sequence to auto-generate primary key values for a table.
+3. PL/SQL Blocks:
+o Write a PL/SQL block to display the name, department number, and tenure of an employee given their ID.
+o Write a PL/SQL block to calculate and display the net salary (salary + commission) of an employee.
+4. Procedures and Functions:
+o Write a procedure to accept a driver number (dno) and display their details, including driving experience.
+o Write a user-defined function to calculate the sum of two numbers.
+5. Packages:
+o Explain the process of creating and using packages in PL/SQL.
+o Write an example of a package to manage employee data.
+6. DDBMS:
+o Explain concurrency control in a Distributed Database Management System with examples.
+o Describe the differences between Peer-to-Peer and Client/Server architectures in DDBMS.
+7. Exceptions:
+o Write a PL/SQL block to handle a NO_DATA_FOUND exception.
+o Explain the difference between predefined and user-defined exceptions with examples.
+
+3. Multiple Choice Questions
+1. Which of the following is not a valid cursor attribute?
+o A) %ISOPEN
+o B) %FOUND
+o C) %ROWTYPE
+o D) %NOTFOUND
+2. Which keyword is used to pass a parameter by reference in PL/SQL?
+o A) IN
+o B) OUT
+o C) IN OUT
+o D) BYREF
+3. What does DDBMS stand for?
+o A) Decentralized Database Management System
+o B) Distributed Database Management System
+o C) Direct Database Management System
+o D) Dynamic Database Management System
+4. The symbol || in PL/SQL is used for:
+o A) Concatenation
+o B) Addition
+o C) Logical OR
+o D) Assignment
+5. Which of the following are types of PL/SQL collections?
+o A) Index-By Table
+o B) Nested Table
+o C) VARRAY
+o D) All of the above
+
+4. Fill-in-the-Blanks
+1. The %ROWTYPE attribute is used to declare a variable that can hold an entire ______ from a table.
+2. The function SQLCODE returns the ______ of the most recent exception.
+3. The BULK COLLECT clause is used to fetch multiple rows from a table into a ______.
+4. The symbol -- is used for ______ line comments in PL/SQL.
+5. The keyword ______ is used to define a cursor in PL/SQL.
+
+5. Advanced Problem Statements
+1. Driver Table and Sequence:
+Given the Driver table and a sequence SEQ_DNO, write a PL/SQL procedure to accept a driver number and display their department, name, and years of experience. Create an anonymous block to call the procedure.
+2. Employee Details:
+Write a PL/SQL block to display employee details, including their department name and net salary (salary + commission), using joins between the EMP and DEPT tables.
+3. Trigger for Automatic Updates:
+Write a trigger that automatically sets the hdate to the system date and converts the dname to uppercase before any insert or update on the Driver table.
+Networking
+Q1. Answer to the Point:
+a. UDP is a reliable stream delivery service. (False)
+b. NVT stands for Network Virtual Terminal.
+c. SMTP is the abbreviation of Simple Mail Transfer Protocol.
+d. DHCP provides IP addresses to the client.
+e. DNS maps IP addresses into Domain Names. (True)
+
+Q2. Do as Directed:
+A1. Options used in Telnet option negotiation: (Will/Won’t)
+A2. Care-of-address is given by Foreign Agent in Mobile IP: (Yes)
+A3. Block size used in TFTP: (512 bytes)
+B1. Multiplicative Decrease & Slow Start:
+* Multiplicative Decrease: Decreases congestion window size by half upon detecting network congestion.
+* Slow Start: Gradually increases the congestion window size at the start of a transmission or after a timeout.
+OR
+B2. Content Format in MIME:
+* MIME (Multipurpose Internet Mail Extensions) formats include text/plain, image/jpeg, application/pdf, etc., enabling email attachments and content type specifications.
+
+Q3. Answer Briefly:
+A1. SMTP Protocol:
+SMTP (Simple Mail Transfer Protocol) facilitates email transmission by following a sequence:
+1. Sender establishes a connection with the mail server.
+2. Authentication takes place.
+3. Mail commands are issued (MAIL FROM, RCPT TO, DATA).
+4. Message is transmitted and connection closes.
+B1. GET vs. POST Methods in HTTP:
+* GET: Sends data via URL query string. Suitable for idempotent operations.
+* POST: Sends data in the request body, ideal for sensitive or large payloads.
+OR
+A2. Characteristics of Mobile IP and Two Crossing Problem:
+* Mobile IP Features: Seamless connectivity, handoffs, and routing.
+* Two Crossing Problem: Packets traverse through foreign and home agents multiple times, causing inefficiency.
+B2. IPSec Authentication Header:
+IPSec provides integrity and authentication using an AH header containing security parameters, sequence numbers, and authentication data.
+
+Q4. State Machine Descriptions:
+1. TCP State Machine:
+Represents states like LISTEN, SYN-SENT, ESTABLISHED, FIN-WAIT, CLOSE-WAIT during a connection lifecycle.
+2. DHCP State Machine:
+Involves states such as INIT, SELECTING, REQUESTING, BOUND, RENEWING, and REBINDING for IP allocation.
+
+Q5. Format Descriptions:
+1. TCP Segment Format:
+Includes fields like source port, destination port, sequence number, acknowledgment number, data offset, flags (SYN, ACK), and checksum.
+2. DHCP Message Format:
+Comprises operation code (op), hardware type, transaction ID, client IP, server IP, and options.
+Python
+
+Q1. Basics of Python (All Compulsory)
+1. What are Python's key features?
+2. Explain how indentation is used in Python.
+3. What are variables, and how are they declared in Python?
+4. Explain the difference between mutable and immutable data types with examples.
+5. Write a Python program to swap two variables.
+
+Q2. Python Data Types and Operators
+1. List Python's standard data types and give examples.
+2. What is the difference between a list and a tuple?
+3. How are sets different from dictionaries?
+4. Write a Python program to demonstrate all logical operators.
+5. Define and give examples of the following:
+o a. Numeric data types
+o b. Boolean data type
+o c. String data type
+
+Q3. Control Flow
+1. Explain the syntax of if-elif-else statements with examples.
+2. What is a nested loop? Write an example using for and while.
+3. Write a Python program to check if a number is prime.
+4. Explain break, continue, and pass statements in Python with examples.
+5. Write a program to print Fibonacci numbers up to 100 using a while loop.
+
+Q4. Functions
+1. What are the benefits of using functions?
+2. Explain how default and keyword arguments work with examples.
+3. Write a Python program to demonstrate a recursive function to calculate the factorial of a number.
+4. Describe the *args and **kwargs concepts in Python.
+5. How can a function return multiple values? Write an example.
+
+Q5. Object-Oriented Programming (OOP)
+1. Define a class and object in Python. Write an example.
+2. Explain the concept of inheritance with examples.
+3. What is polymorphism? Demonstrate it using method overriding.
+4. Describe encapsulation and abstraction with examples.
+5. Write a Python program to implement multiple inheritance.
+
+Q6. File Handling
+1. Write a Python program to read a file line by line.
+2. Explain the difference between write() and writelines() methods.
+3. How do you handle file exceptions using try-except? Write an example.
+4. Write a program to count the number of words in a text file.
+5. Explain file modes (r, w, a, etc.) in Python.
+
+Q7. Exception Handling
+1. What is exception handling? Why is it important?
+2. Explain the syntax of try-except-finally blocks with examples.
+3. What is the purpose of the raise keyword? Demonstrate its use.
+4. Write a Python program to handle division by zero using exception handling.
+5. Explain custom exceptions and write an example.
+
+Q8. Advanced Topics
+1. Explain list comprehension with examples.
+2. What are decorators? Write a Python program to demonstrate their use.
+3. What are generators, and how do they work? Write an example.
+4. Explain the difference between shallow and deep copies in Python.
+5. Write a Python program to sort a list of dictionaries by a specific key.
+
+Q9. GUI Development with Tkinter
+1. What is the purpose of the Tkinter library in Python?
+2. Write a program to create a simple GUI with an entry widget and a button.
+3. Explain the grid, pack, and place layout managers in Tkinter.
+4. Write a program to create a calculator using Tkinter.
+5. How do you handle events in Tkinter? Write an example.
+
+Q10. Database Connectivity
+1. Explain the steps for connecting Python to a MySQL database.
+2. Write a Python program to insert and retrieve data from a database table.
+3. What is the purpose of the cursor object in database handling?
+4. Write a Python program to demonstrate a SELECT query with filtering.
+5. Explain how to handle database exceptions in Python.
+
+Q11. Practice Programs
+1. Write a program to check if a string is a palindrome.
+2. Write a Python program to calculate the area of different shapes using classes.
+3. Write a program to create a dictionary from two lists using zip.
+4. Write a program to find duplicates in a list.
+5. Write a program to reverse a string without using built-in functions.
+
+

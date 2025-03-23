@@ -1,0 +1,28 @@
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .video video {
+    width: 300px;
+    height: auto;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card {
+    background: #e0e0e0;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .premium {
+    background: #ffcc80;
+  }
+  

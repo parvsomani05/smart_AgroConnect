@@ -1,0 +1,55 @@
+{
+  "title": "સ્માર્ટ એગ્રો કનેક્ટ",
+  "home": "હોમ",
+  "registration": "નોંધણી",
+  "login": "લૉગિન",
+  "registrationTitle": "અમને તમારા વિશે વધુ કહો",
+  "selectProfileType": "પ્રોફાઇલ પ્રકાર પસંદ કરો",
+  "farmer": "ખેડૂત",
+  "buyer": "ખરીદદાર",
+  "yourName": "તમારું નામ*",
+  "emailId": "ઇમેઇલ આઈડી",
+  "pinCode": "પિન કોડ*",
+  "yourAddress": "તમારું સરનામું",
+  "continue": "ચાલુ રાખો",
+  
+  "navbar": {
+    "dashboard": "ડેશબોર્ડ",
+    "products": "ઉત્પાદનો",
+    "orders": "ઓર્ડરો",
+    "logout": "લૉગઆઉટ"
+  },
+
+  "footer": {
+    "aboutUs": "અમારા વિશે",
+    "contactUs": "અમારો સંપર્ક કરો",
+    "privacyPolicy": "ગોપનીયતા નીતિ",
+    "termsConditions": "શરતો અને નીતિઓ"
+  },
+
+  "product_form": {
+    "title": "તમારા ઉત્પાદનો રજૂ કરો",
+    "fields": {
+      "product_name": "ઉત્પાદનનું નામ",
+      "description": "ઉત્પાદનનું વર્ણન",
+      "price": "ભાવ (INR)",
+      "quantity": "જથ્થો (કિલોગ્રામમાં)",
+      "images": "છબીઓ અપલોડ કરો (મહત્તમ 3)",
+      "certification": "પ્રમાણપત્રો અપલોડ કરો",
+      "allowed_formats": "અનুমત ફોર્મેટ: PDF, JPG, PNG",
+      "submit": "ઉત્પાદન સબમિટ કરો",
+      "submitting": "સબમિટ કરી રહ્યું છે..."
+    },
+    "alerts": {
+      "max_images": "તમે મહત્તમ 3 છબીઓ અપલોડ કરી શકો છો.",
+      "success": "તમારું ફોર્મ સફળતાપૂર્વક સબમિટ થયું!",
+      "error": "કૃપા કરીને ફરી પ્રયાસ કરો, કંઈક ખોટું થયું."
+    }
+  },
+
+  "hero_section": {
+    "headline": "ખેડૂત અને ખરીદદારોને સીધા જ જોડે છે",
+    "sub_text": "મધ્યસ્થીઓ દૂર કરો, નફો વધારો અને વિશાળ બજારમાં પ્રવેશો.",
+    "get_started": "શરૂ કરો"
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popup Modal Example</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+
+  <!-- Trigger Buttons -->
+  <div class="text-center">
+    <button 
+      onclick="openModal('loginModal')" 
+      class="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+      Login
+    </button>
+    <button 
+      onclick="openModal('registerModal')" 
+      class="px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700">
+      Register
+    </button>
+  </div>
+
+  <!-- Login Modal -->
+  <div id="loginModal" class="fixed inset-0 hidden bg-black bg-opacity-50 flex items-center justify-center">
+    <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-md">
+      <h2 class="text-2xl font-bold text-center mb-4">Login</h2>
+      <form>
+        <div class="mb-4">
+          <label for="loginEmail" class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" id="loginEmail" name="loginEmail" class="w-full px-4 py-2 border rounded-md" required>
+        </div>
+        <div class="mb-4">
+          <label for="loginPassword" class="block text-sm font-medium text-gray-700">Password</label>
+          <input type="password" id="loginPassword" name="loginPassword" class="w-full px-4 py-2 border rounded-md" required>
+        </div>
+        <div class="flex justify-between items-center">
+          <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Login</button>
+          <button 
+            type="button" 
+            class="px-4 py-2 bg-gray-300 text-gray-700 rounded-md hover:bg-gray-400" 
+            onclick="closeModal('loginModal')">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Register Modal -->
+  <div id="registerModal" class="fixed inset-0 hidden bg-black bg-opacity-50 flex items-center justify-center">
+    <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-md">
+      <h2 class="text-2xl font-bold text-center mb-4">Register</h2>
+      <form>
+        <div class="mb-4">
+          <label for="registerName" class="block text-sm font-medium text-gray-700">Full Name</label>
+          <input type="text" id="registerName" name="registerName" class="w-full px-4 py-2 border rounded-md" required>
+        </div>
+        <div class="mb-4">
+          <label for="registerEmail" class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" id="registerEmail" name="registerEmail" class="w-full px-4 py-2 border rounded-md" required>
+        </div>
+        <div class="mb-4">
+          <label for="registerPassword" class="block text-sm font-medium text-gray-700">Password</label>
+          <input type="password" id="registerPassword" name="registerPassword" class="w-full px-4 py-2 border rounded-md" required>
+        </div>
+        <div class="flex justify-between items-center">
+          <button type="submit" class="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700">Register</button>
+          <button 
+            type="button" 
+            class="px-4 py-2 bg-gray-300 text-gray-700 rounded-md hover:bg-gray-400" 
+            onclick="closeModal('registerModal')">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript to Handle Modals -->
+  <script>
+    function openModal(modalId) {
+      document.getElementById(modalId).classList.remove('hidden');
+    }
+
+    function closeModal(modalId) {
+      document.getElementById(modalId).classList.add('hidden');
+    }
+  </script>
+</body>
+</html>

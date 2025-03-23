@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <script>
+    function toggleLoginPopup() {
+      const popup = document.getElementById("loginPopup");
+      popup.classList.toggle("hidden");
+    }
+  </script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Top Navigation Bar -->
+  <header class="bg-blue-600 text-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold">Admin Dashboard</h1>
+      <div class="flex items-center">
+        <span class="material-icons-outlined text-3xl">notifications</span>
+        <span class="material-icons-outlined text-3xl ml-4" onclick="toggleLoginPopup()">account_circle</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="flex">
+    <!-- Sidebar -->
+    <aside class="bg-gray-800 text-white w-64 h-screen p-6">
+      <h2 class="text-xl font-semibold mb-4">Menu</h2>
+      <nav>
+        <ul>
+          <li class="mb-2"><a href="#" class="block py-2 px-3 rounded hover:bg-gray-700"><span class="material-icons-outlined">dashboard</span> Dashboard</a></li>
+          <li class="mb-2"><a href="#" class="block py-2 px-3 rounded hover:bg-gray-700"><span class="material-icons-outlined">hotel</span> Room Management</a></li>
+          <li class="mb-2"><a href="#" class="block py-2 px-3 rounded hover:bg-gray-700"><span class="material-icons-outlined">school</span> Student Management</a></li>
+          <li class="mb-2"><a href="#" class="block py-2 px-3 rounded hover:bg-gray-700"><span class="material-icons-outlined">payment</span> Fee Management</a></li>
+          <li class="mb-2"><a href="#" class="block py-2 px-3 rounded hover:bg-gray-700"><span class="material-icons-outlined">feedback</span> Complaints</a></li>
+          <li class="mb-2"><a href="#" class="block py-2 px-3 rounded hover:bg-gray-700"><span class="material-icons-outlined">logout</span> Logout</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-6">
+      <!-- Dashboard Overview -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
+        <!-- Card 1 -->
+        <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+          <div class="flex items-center justify-between">
+            <h3 class="text-lg font-semibold">Rooms</h3>
+            <span class="material-icons-outlined text-blue-500 text-3xl">hotel</span>
+          </div>
+          <p class="text-gray-600 mt-2">Total: 120</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+          <div class="flex items-center justify-between">
+            <h3 class="text-lg font-semibold">Students</h3>
+            <span class="material-icons-outlined text-green-500 text-3xl">school</span>
+          </div>
+          <p class="text-gray-600 mt-2">Total: 450</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+          <div class="flex items-center justify-between">
+            <h3 class="text-lg font-semibold">Complaints</h3>
+            <span class="material-icons-outlined text-red-500 text-3xl">feedback</span>
+          </div>
+          <p class="text-gray-600 mt-2">Pending: 5</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+          <div class="flex items-center justify-between">
+            <h3 class="text-lg font-semibold">Fee Collection</h3>
+            <span class="material-icons-outlined text-yellow-500 text-3xl">payment</span>
+          </div>
+          <p class="text-gray-600 mt-2">This Month: ₹1,20,000</p>
+        </div>
+      </div>
+
+      <!-- Modules Section -->
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-2xl font-semibold mb-6">Manage Modules</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Room Management -->
+          <div class="p-4 border rounded hover:shadow-lg transition">
+            <h3 class="font-semibold mb-2">Room Management</h3>
+            <p class="text-gray-600">View, allocate, and update rooms.</p>
+            <button class="mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-500">Manage</button>
+          </div>
+          <!-- Student Management -->
+          <div class="p-4 border rounded hover:shadow-lg transition">
+            <h3 class="font-semibold mb-2">Student Management</h3>
+            <p class="text-gray-600">Add, update, and delete student records.</p>
+            <button class="mt-4 bg-green-600 text-white py-2 px-4 rounded hover:bg-green-500">Manage</button>
+          </div>
+          <!-- Fee Management -->
+          <div class="p-4 border rounded hover:shadow-lg transition">
+            <h3 class="font-semibold mb-2">Fee Management</h3>
+            <p class="text-gray-600">Track and collect student fees.</p>
+            <button class="mt-4 bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-500">Manage</button>
+          </div>
+          <!-- Complaints -->
+          <div class="p-4 border rounded hover:shadow-lg transition">
+            <h3 class="font-semibold mb-2">Complaints</h3>
+            <p class="text-gray-600">Handle and resolve student complaints.</p>
+            <button class="mt-4 bg-red-600 text-white py-2 px-4 rounded hover:bg-red-500">Manage</button>
+          </div>
+          <!-- Leave Requests -->
+          <div class="p-4 border rounded hover:shadow-lg transition">
+            <h3 class="font-semibold mb-2">Leave Requests</h3>
+            <p class="text-gray-600">Approve or reject student leave applications.</p>
+            <button class="mt-4 bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-500">Manage</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <!-- login -->
+  <div id="loginPopup" class="hidden fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white p-6 rounded shadow-lg w-80">
+      <h2 class="text-xl font-semibold mb-4">Admin Login</h2>
+      <form>
+        <div class="mb-4">
+          <label for="username" class="block text-gray-700 font-medium mb-2">Username</label>
+          <input type="text" id="username" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div class="mb-4">
+          <label for="password" class="block text-gray-700 font-medium mb-2">Password</label>
+          <input type="password" id="password" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div class="flex justify-between items-center">
+          <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-500">Login</button>
+          <button type="button" class="text-gray-600 hover:underline" onclick="toggleLoginPopup()">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

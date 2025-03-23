@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hostel Management System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body class="bg-gray-50">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-200 to-indigo-600 text-white p-5">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl text-black font-bold">HOSTELGUARDIAN</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:underline">Home</a></li>
+          <li><a href="#features" class="hover:underline">Features</a></li>
+          <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+          <div class="text-center">
+            <button 
+              onclick="openModal('loginModal')" 
+              class="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+              Login
+            </button>
+            <button 
+              onclick="openModal('registerModal')" 
+              class="px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700">
+              Register
+            </button>
+          </div>        
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="flex items-center justify-center bg-cover bg-center h-screen relative" style="background-image: url('/24501993.jpg');">
+    <div 
+    class="absolute inset-0 bg-black bg-opacity-60 backdrop-blur-lg">
+  </div>
+    <div class="text-center text-white bg-black bg-opacity-50 p-8 rounded-lg z-10">
+
+      <h2 class="text-5xl font-bold mb-4">Effortless Hostel Management</h2>
+      <p class="text-lg mb-6">Streamline your hostel operations with our modern and intuitive platform.</p>
+      <a href="/register" class="bg-blue-500 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold">Get Started</a>
+    </div>
+  </section>
+
+  <div id="loginModal" class="fixed inset-0 hidden bg-black bg-opacity-50 flex items-center justify-center z-10">
+    <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-md">
+      <span class="material-icons text-4xl text-blue-500 "style="padding-left: 45%;">account_circle</span>
+      <h2 class="text-2xl font-bold text-center mb-4">Login</h2>
+      <form>
+        <div class="mb-4">
+          <label for="loginEmail" class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" id="loginEmail" name="loginEmail" class="w-full px-4 py-2 border rounded-md" required>
+        </div>
+        <div class="mb-4">
+          <label for="loginPassword" class="block text-sm font-medium text-gray-700">Password</label>
+          <input type="password" id="loginPassword" name="loginPassword" class="w-full px-4 py-2 border rounded-md" required>
+        </div>
+        <div class="flex justify-between items-center">
+          <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Login</button>
+          <button 
+            type="button" 
+            class="px-4 py-2 bg-gray-300 text-gray-700 rounded-md hover:bg-gray-400" 
+            onclick="closeModal('loginModal')">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Register Modal -->
+  <div id="registerModal" class="fixed inset-0 hidden bg-black bg-opacity-50 flex items-center justify-center z-10">
+    <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-md">
+      <span class="material-icons text-4xl text-blue-500 "style="padding-left: 45%;">account_circle</span>
+      <h2 class="text-2xl font-bold text-center mb-4">Register</h2>
+      <form>
+        <div class="mb-4">
+          <label for="registerName" class="block text-sm font-medium text-gray-700">Full Name</label>
+          <input type="text" id="registerName" name="registerName" class="w-full px-4 py-2 border rounded-md" required>
+        </div>
+        <div class="mb-4">
+          <label for="registerEmail" class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" id="registerEmail" name="registerEmail" class="w-full px-4 py-2 border rounded-md" required>
+        </div>
+        <div class="mb-4">
+          <label for="registerPassword" class="block text-sm font-medium text-gray-700">Password</label>
+          <input type="password" id="registerPassword" name="registerPassword" class="w-full px-4 py-2 border rounded-md" required>
+        </div>
+        <div class="flex justify-between items-center">
+          <button type="submit" class="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700">Register</button>
+          <button 
+            type="button" 
+            class="px-4 py-2 bg-gray-300 text-gray-700 rounded-md hover:bg-gray-400" 
+            onclick="closeModal('registerModal')">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <section id="features" class="py-16 px-16 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-10">Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Feature 1 -->
+        <div class="bg-white p-6 rounded shadow-lg hover:shadow-xl transition">
+          
+          <span class="material-symbols-outlined text-[60px] text-blue-500">meeting_room</span>
+      
+          <h3 class="text-xl font-semibold mb-2">Room Allocation</h3>
+          <p>Allocate and manage rooms with ease.</p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="bg-white p-6 rounded shadow-lg hover:shadow-xl transition">
+          <div class="flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined text-[60px] text-green-500">payments</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Online Fee Payment</h3>
+          <p>Pay your fees online in a secure and hassle-free way.</p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="bg-white p-6 rounded shadow-lg hover:shadow-xl transition">
+          <div class="flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined text-[60px] text-red-800">person_alert</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Complaint Management</h3>
+          <p>Quickly file and resolve complaints.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-16">
+    <div class="container mx-auto flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2">
+        <h2 class="text-3xl font-bold mb-4">About Us</h2>
+        <p class="text-gray-700 mb-6">
+            HOSTELGUARDIAN is your one-stop solution for managing hostel operations efficiently. From room allocation to handling fees and complaints, we've got you covered.
+        </p>
+        <a href="#contact" class="bg-blue-500 hover:bg-blue-700 text-white px-6 py-2 rounded font-bold">Contact Us</a>
+      </div>
+      <div class="md:w-1/2">
+        <img src="/30171445.jpg" alt="About Us Image" class="rounded shadow-lg" style="max-height: 600px; max-width: 100%; object-fit: cover;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 HOSTELGUARDIAN. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+<script>
+  function openModal(modalId) {
+    document.getElementById(modalId).classList.remove('hidden');
+  }
+
+  function closeModal(modalId) {
+    document.getElementById(modalId).classList.add('hidden');
+  }
+</script>
+</html>
